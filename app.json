@@ -1,0 +1,52 @@
+{
+	"expo": {
+		"name": "NetCheck",
+		"slug": "NetCheck",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon.png",
+		"scheme": "netcheck",
+		"userInterfaceStyle": "automatic",
+		"newArchEnabled": true,
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"backgroundColor": "#E6F4FE",
+				"foregroundImage": "./assets/images/icon.png"
+			},
+			"edgeToEdgeEnabled": true,
+			"predictiveBackGestureEnabled": false,
+			"package": "com.jamalala.NetCheck"
+		},
+		"web": {
+			"output": "static",
+			"favicon": "./assets/images/icon.png"
+		},
+		"plugins": [
+			"expo-router",
+			[
+				"expo-splash-screen",
+				{
+					"image": "./assets/images/icon.png",
+					"imageWidth": 200,
+					"resizeMode": "contain",
+					"backgroundColor": "#030914",
+					"dark": {
+						"backgroundColor": "#030914"
+					}
+				}
+			]
+		],
+		"experiments": {
+			"typedRoutes": true,
+			"reactCompiler": true
+		},
+		"extra": {
+			"eas": {
+				"projectId": "8a9b3c1e-f498-477e-af35-d96325a52a39"
+			}
+		}
+	}
+}
